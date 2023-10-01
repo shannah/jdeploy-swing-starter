@@ -26,3 +26,5 @@ jobs:
         run: mvn -B package --file pom.xml
       - name: Build App Installer Bundles
         uses: shannah/jdeploy@master
+        with:
+          github_token: ${{ secrets.STEVE_PAT }}
