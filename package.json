@@ -17,7 +17,8 @@
     "cheerpj": {
       "githubPages": {
         "enabled": true,
-        "path": "."
+        "path": ".",
+        "branch" : "gh-pages"
       }
     }
   },
