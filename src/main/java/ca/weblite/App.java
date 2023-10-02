@@ -41,7 +41,7 @@ public class App extends JFrame {
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
-            g.drawString("Hello jDeploy 2", x, y);
+            g.drawString("Hello jDeploy 7", x, y);
         }
     }
 
